@@ -1,0 +1,1 @@
+# JJPowerPlatform-intermediate
