@@ -34,9 +34,9 @@ Contoso Real Estate wants to track two key elements:
 
 ## Exercise 1 - Import solution
 
-In this excercise, you will import prepared solution.
+In this excercise, you will import prepared solution located in **Resources** folder.
 
-1. Download solution: ....
+1. Download solution: Propertylistings_1_0_0_1 
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
@@ -48,11 +48,15 @@ In this excercise, you will import prepared solution.
 
 1. Choose solution you downloaded.
 
-(dodat sliku)
+    ![Screenshot of importing solution.](../media/import-solution.png)
 
-1. Click **Next**
+1. Select **Next**
 
+1. Select **Import**
 
+1. Wait few moments until it is imported.
+
+    ![Screenshot of importing solution in progress.](../media/import-solution-inprogress.png)
 
 
 ## Exercise 2 - Build model-driven app
@@ -88,7 +92,7 @@ In this exercise, you will create a model-driven app.
 
 1. Select **Dataverse table**.
 
-1. Enter `cre` in **Search**.
+1. Enter `cre_` in **Search**.
 
     ![Screenshot of add page to model-driven app dialog.](../media/mda-add-tables.png)
 

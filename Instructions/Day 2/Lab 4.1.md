@@ -6,11 +6,16 @@ lab:
 
 # Lab 4.1: Calculated and rollup columns
 
+## Prerequisites
+
+- Must have completed **Lab 0: Validate lab environment**
+
 ## Exercise 1 - Import solution
 
-In this excercise, you will import prepared solution.
 
-1. Download solution: ....
+In this excercise, you will import prepared solution located in **Resources** folder.
+
+1. Download solution: FabrikamEnvironmental_1_0_0_1 
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
@@ -22,9 +27,15 @@ In this excercise, you will import prepared solution.
 
 1. Choose solution you downloaded.
 
-(dodat sliku)
+    ![Screenshot of importing solution.](../media/import-solution.png)
 
-1. Click **Next**
+1. Select **Next**
+
+1. Select **Import**
+
+1. Wait few moments until it is imported.
+
+    ![Screenshot of importing solution in progress.](../media/import-solution-inprogress.png)
 
 
 

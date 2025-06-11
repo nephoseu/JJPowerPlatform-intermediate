@@ -23,7 +23,7 @@ In this lab, you will configure a model-driven app.
   
 ## Prerequisites
 
-- Must have completed **Lab 1: Data model**, **Lab 3.1.: Create model-driven app**, and **Lab 3.2.: Configure forms and views**
+- Must have completed **Lab 3.1.: Create model-driven app**, and **Lab 3.2.: Configure forms and views**
 
 ## Detailed steps
 
