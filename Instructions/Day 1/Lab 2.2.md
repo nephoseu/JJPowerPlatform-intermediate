@@ -40,7 +40,7 @@ In this lab you will change the colors of the controls in the app.
 
 1. In action bar in the Power Apps Studio, select **Theme**.
 
-    ![Screenshot of select themes.](../media/select-theme.png)
+    ![Screenshot of select themes.](../Media/select-theme.png)
 
 1. Select the **Red** theme.
 
@@ -97,7 +97,7 @@ In this lab you will change the colors of the controls in the app.
    1. Color=`Color.White`
    1. Text=`User().FullName`
 
-    ![Screenshot of the main screen with personalization.](../media/main-screen-personalized.png)
+    ![Screenshot of the main screen with personalization.](../Media/main-screen-personalized.png)
 
 1. Select **Save** in the top-right of the Power Apps Studio.
 

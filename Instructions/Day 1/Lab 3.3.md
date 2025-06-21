@@ -47,7 +47,7 @@ In this exercise, you will configure navigation and tables a model-driven app.
 
 1. Select **New Group** in the **Navigation** pane.
 
-    ![Screenshot of model-driven app group.](../media/mda-group.png)
+    ![Screenshot of model-driven app group.](../Media/mda-group.png)
 
 1. In the properties pane, enter `Clients` for **Title**.
 
@@ -61,7 +61,7 @@ In this exercise, you will configure navigation and tables a model-driven app.
 
 1. In the **Navigation pane**, select **Open Houses view**, select the **Commands** menu (...) and select **Move down** three times.
 
-    ![Screenshot of model-driven app designer with navigation.](../media/mda-navigation.png)
+    ![Screenshot of model-driven app designer with navigation.](../Media/mda-navigation.png)
 
 
 ### Task 1.2 – Restrict views
@@ -72,7 +72,7 @@ In this exercise, you will configure navigation and tables a model-driven app.
 
 1. Select the **Inactive Showings view**, in the right-hand pane, and select the **Commands** menu (...) and select **Remove**.
 
-    ![Screenshot of removing a view in the model-driven app designer.](../media/mda-remove-view.png)
+    ![Screenshot of removing a view in the model-driven app designer.](../Media/mda-remove-view.png)
 
 1. Select **Save**.
 

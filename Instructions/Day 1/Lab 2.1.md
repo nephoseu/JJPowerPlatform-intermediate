@@ -48,11 +48,11 @@ In this lab you will design and build a canvas app from blank, add a data source
 
 1. In the app authoring menu, select **Data**.
 
-    ![Screenshot of Data pane.](../media/studio-data-pane.png)
+    ![Screenshot of Data pane.](../Media/studio-data-pane.png)
 
 1. Select the drop-down caret next to **Add data** and enter `Booking` in **Search**.
 
-    ![Screenshot of select data source.](../media/studio-data-search.png)
+    ![Screenshot of select data source.](../Media/studio-data-search.png)
 
 1. Select the **Booking Requests** Microsoft Dataverse table.
 
@@ -102,7 +102,7 @@ In this lab you will design and build a canvas app from blank, add a data source
    1. Text=`"Booking Request"`
    1. Color=`Color.White`
 
-    ![Screenshot of the main screen with header.](../media/main-screen.png)
+    ![Screenshot of the main screen with header.](../Media/main-screen.png)
 
 1. Select **Save** in the top-right of the Power Apps Studio.
 
@@ -112,11 +112,11 @@ In this lab you will design and build a canvas app from blank, add a data source
 
 1. Select **Vertical gallery**.
 
-    ![Screenshot of adding a gallery.](../media/add-gallery.png)
+    ![Screenshot of adding a gallery.](../Media/add-gallery.png)
 
 1. Select **Booking Requests** for the data source.
 
-    ![Screenshot of gallery properties.](../media/gallery-properties.png)
+    ![Screenshot of gallery properties.](../Media/gallery-properties.png)
 
 1. In the **Properties** tab, for **Layout** select **Title, subtitle, and body**.
 
@@ -130,7 +130,7 @@ In this lab you will design and build a canvas app from blank, add a data source
 
 1. Select **Pet Name** for **Title2**.
 
-    ![Screenshot of gallery fields.](../media/select-fields.png)
+    ![Screenshot of gallery fields.](../Media/select-fields.png)
 
 1. Close the **Data** pane.
 
@@ -155,7 +155,7 @@ In this lab you will design and build a canvas app from blank, add a data source
 
 1. Select **Body1**.
 
-    ![Screenshot of body field selected.](../media/body.png)
+    ![Screenshot of body field selected.](../Media/body.png)
 
 1. Set the **Text** property in the formula bar to the formula:
 

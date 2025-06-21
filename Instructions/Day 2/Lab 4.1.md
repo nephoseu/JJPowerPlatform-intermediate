@@ -27,7 +27,7 @@ In this excercise, you will import prepared solution located in **Resources** fo
 
 1. Choose solution you downloaded.
 
-    ![Screenshot of importing solution.](../media/import-solution.png)
+    ![Screenshot of importing solution.](../Media/import-solution.png)
 
 1. Select **Next**
 
@@ -35,7 +35,7 @@ In this excercise, you will import prepared solution located in **Resources** fo
 
 1. Wait few moments until it is imported.
 
-    ![Screenshot of importing solution in progress.](../media/import-solution-inprogress.png)
+    ![Screenshot of importing solution in progress.](../Media/import-solution-inprogress.png)
 
 
 
@@ -64,7 +64,7 @@ In this excercise, you will import prepared solution located in **Resources** fo
 
 1.  Select **Save and edit**.
 
-    ![Add calculated column.](../media/add-calculated-column.png)
+    ![Add calculated column.](../Media/add-calculated-column.png)
 
     > **Note:** You may need to disable the pop-up blocker in your browser first, then open the **Length of Project** column and select **Edit**.
 
@@ -98,7 +98,7 @@ In this excercise, you will import prepared solution located in **Resources** fo
 
 1.  Select **SAVE AND CLOSE**.
 
-    ![Calculated column.](../media/calculated-column.png)
+    ![Calculated column.](../Media/calculated-column.png)
 
 
 
@@ -144,4 +144,4 @@ In this excercise, you will import prepared solution located in **Resources** fo
 
 1.  Select **SAVE AND CLOSE**.
 
-    ![Add rollup column.](../media/add-rollup-column.png)
+    ![Add rollup column.](../Media/add-rollup-column.png)

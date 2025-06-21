@@ -37,9 +37,9 @@ In this lab you will create Dataverse tables and columns.
 
 1. Select **+ New table**, and choose **Table (advanced properties)**.
 
-    ![Screenshot of creating a new table in Dataverse.](../media/create-new-table-dataverse.png)
+    ![Screenshot of creating a new table in Dataverse.](../Media/create-new-table-dataverse.png)
 
-     ![Screenshot of creating a new table in Dataverse.](../media/create-new-table-dataverse.png)
+     ![Screenshot of creating a new table in Dataverse.](../Media/create-new-table-dataverse.png)
 
 1. Enter `Booking Request` for **Display name**.
 
@@ -47,7 +47,7 @@ In this lab you will create Dataverse tables and columns.
 
 1. Select the **primary column** tab next to the **Properties** tab
 
-    ![Screenshot of primary column.](../media/primary-column.png)
+    ![Screenshot of primary column.](../Media/primary-column.png)
 
 1. Enter `Pet Name` for **Display name**.
 
@@ -57,7 +57,7 @@ In this lab you will create Dataverse tables and columns.
 
 1. In the **Booking Request columns and data** pane, select **+** to add a new column.
 
-    ![Screenshot of data pane.](../media/data-pane.png)
+    ![Screenshot of data pane.](../Media/data-pane.png)
 
 1. In the **New column** pane, enter or select the following values:
 
@@ -65,7 +65,7 @@ In this lab you will create Dataverse tables and columns.
    1. Data type: **Single line of text**
    1. Required: **Business required**
 
-    ![Screenshot of new column pane.](../media/new-column-pane.png)
+    ![Screenshot of new column pane.](../Media/new-column-pane.png)
 
 1. Select **Save**.
 
@@ -131,7 +131,7 @@ In this lab you will create Dataverse tables and columns.
 
 1. Select **Undecided** for **Default choice**.
 
-    ![Screenshot of new choice column pane.](../media/new-local-choice.png)
+    ![Screenshot of new choice column pane.](../Media/new-local-choice.png)
 
 1. Select **Save**.
 
@@ -146,7 +146,7 @@ In this lab you will create Dataverse tables and columns.
    1. Required: **Optional**
    1. Related table: **Account**
 
-    ![Screenshot of new lookup column pane.](../media/new-lookup.png)
+    ![Screenshot of new lookup column pane.](../Media/new-lookup.png)
 
 1. Select **Save**.
 

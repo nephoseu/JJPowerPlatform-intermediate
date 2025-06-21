@@ -66,7 +66,7 @@ In this exercise, you will modify the main form for the Real Estate Property tab
 
 1. In the **Properties** pane on the right-hand side, select **3 columns** in the **Layout** drop-down.
 
-    ![Screenshot of main form with 3 column tab.](../media/main-form-general-tab.png)
+    ![Screenshot of main form with 3 column tab.](../Media/main-form-general-tab.png)
 
 1. In the **Tree view**, expand the **General** tab. Select the first section and enter `generalSection` for **Name**.
 
@@ -76,7 +76,7 @@ In this exercise, you will modify the main form for the Real Estate Property tab
 
 1. Drag the **Owner** field into the **Header** area.
 
-    ![Screenshot of main form with tree view and names.](../media/main-form-tab-layout.png)
+    ![Screenshot of main form with tree view and names.](../Media/main-form-tab-layout.png)
 
 1. Select the first section.
 
@@ -104,7 +104,7 @@ In this exercise, you will modify the main form for the Real Estate Property tab
 
 1. Select the **Bathrooms** column to add to the form below **Bedrooms**.
 
-    ![Screenshot of main form with table columns.](../media/main-form-first-tab.png)
+    ![Screenshot of main form with table columns.](../Media/main-form-first-tab.png)
 
 
 ### Task 1.2 – Add Timeline control
@@ -123,7 +123,7 @@ In this exercise, you will modify the main form for the Real Estate Property tab
 
 1. In the **Properties** pane on the right side, check the **Hide label** box.
 
-    ![Timeline control on form.](../media/main-form-timeline.png)
+    ![Timeline control on form.](../Media/main-form-timeline.png)
 
 1. In the **Tree view**, select the **Note Text** control for the Timeline.
 
@@ -253,7 +253,7 @@ In this exercise, you will create a new form and restrict access with a security
 
 1. Select **Real Estate Property** table. Change the access level on all privileges to **Organization**.
 
-    ![Real Estate Propery privileges in security role.](../media/security-role.png)
+    ![Real Estate Propery privileges in security role.](../Media/security-role.png)
 
 1. Select **Showing** table. Change the access level on all privileges to **Organization**.
 
@@ -278,13 +278,13 @@ In this exercise, you will create a new form and restrict access with a security
 
 1. Enter `Showing admin form` for **Display Name** and select **Save**.
 
-    ![Copy of Showing main form.](../media/main-form-copy.png)
+    ![Copy of Showing main form.](../Media/main-form-copy.png)
 
 1. Select **Form Settings**.
 
 1. Select the **Property admin** security role.
 
-    ![Main form security roles.](../media/main-form-settings.png)
+    ![Main form security roles.](../Media/main-form-settings.png)
 
 1. Select **Save and publish**.
 
@@ -329,7 +329,7 @@ In this exercise, you will modify the views for the Real Estate Property table.
 
 1. In the Properties pane, select **Sort by** and select **Asking Price**.
 
-    ![Real Estate Property active view.](../media/public-view.png)
+    ![Real Estate Property active view.](../Media/public-view.png)
 
 1. Select **Save and publish**.
 

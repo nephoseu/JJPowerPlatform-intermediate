@@ -74,7 +74,7 @@ lab:
 
 1. Enter `Contact Not Required` for **Display Name**. In the **Business Required** section, select **Contact** and **Not Business Required**.
 
-    ![New business rule.](../media/new-business-rule.png)
+    ![New business rule.](../Media/new-business-rule.png)
 
 1. The **Business Rule (Text View)** should read as follows:
 
@@ -250,7 +250,7 @@ lab:
      Error({Kind: ErrorKind.Validation, Message: "The start date cannot be after the end date" })
     );
     ```
-    ![Low-code plug-in.](../media/lowcode-plugin.png)
+    ![Low-code plug-in.](../Media/lowcode-plugin.png)
 
 1. Select **Save**.
 

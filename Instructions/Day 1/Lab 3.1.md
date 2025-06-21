@@ -48,7 +48,7 @@ In this excercise, you will import prepared solution located in **Resources** fo
 
 1. Choose solution you downloaded.
 
-    ![Screenshot of importing solution.](../media/import-solution.png)
+    ![Screenshot of importing solution.](../Media/import-solution.png)
 
 1. Select **Next**
 
@@ -56,7 +56,7 @@ In this excercise, you will import prepared solution located in **Resources** fo
 
 1. Wait few moments until it is imported.
 
-    ![Screenshot of importing solution in progress.](../media/import-solution-inprogress.png)
+    ![Screenshot of importing solution in progress.](../Media/import-solution-inprogress.png)
 
 
 ## Exercise 2 - Build model-driven app
@@ -75,26 +75,26 @@ In this exercise, you will create a model-driven app.
 
 1. Select **+ New** and then select **App** and select **Model-driven app**.
 
-    ![Screenshot of new model-driven app dialog.](../media/new-mda.png)
+    ![Screenshot of new model-driven app dialog.](../Media/new-mda.png)
 
 1. Enter `Property Management` for **Name**.
 
 1. Select **Create**.
 
-    ![Screenshot of model-driven app designer.](../media/mda-designer.png)
+    ![Screenshot of model-driven app designer.](../Media/mda-designer.png)
 
 
 ### Task 2.2 – Add tables
 
 1. Select **+ Add page**.
 
-    ![Screenshot of add page to model-driven app dialog](../media/mda-new-page.png)
+    ![Screenshot of add page to model-driven app dialog](../Media/mda-new-page.png)
 
 1. Select **Dataverse table**.
 
 1. Enter `cre_` in **Search**.
 
-    ![Screenshot of add page to model-driven app dialog.](../media/mda-add-tables.png)
+    ![Screenshot of add page to model-driven app dialog.](../Media/mda-add-tables.png)
 
 1. Select **Open House**, **Real Estate Property**, and **Showing**.
 
@@ -104,13 +104,13 @@ In this exercise, you will create a model-driven app.
 
 1. Select **Add**.
 
-    ![Screenshot of model-driven app designer with tables.](../media/mda-designer-with-tables.png)
+    ![Screenshot of model-driven app designer with tables.](../Media/mda-designer-with-tables.png)
 
 1. Select **Save**.
 
 1. Select **Publish**.
 
-    ![Screenshot of publishing icon.](../media/mda-publish-btn.png)
+    ![Screenshot of publishing icon.](../Media/mda-publish-btn.png)
 
 ### Task 2.3 – Test
 
@@ -136,7 +136,7 @@ In this exercise, you will create a model-driven app.
 
 1. Select **Related** and **Showings**.
 
-    ![Screenshot of model-driven form related tables.](../media/mda-related-records.png)
+    ![Screenshot of model-driven form related tables.](../Media/mda-related-records.png)
 
 1. Select **+ New Showing**.
 
