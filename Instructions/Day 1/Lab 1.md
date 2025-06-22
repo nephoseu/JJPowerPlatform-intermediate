@@ -39,8 +39,6 @@ In this lab you will create Dataverse tables and columns.
 
     ![Screenshot of creating a new table in Dataverse.](../Media/create-new-table-dataverse.png)
 
-     ![Screenshot of creating a new table in Dataverse.](../Media/create-new-table-dataverse.png)
-
 1. Enter `Booking Request` for **Display name**.
 
 ### Task 1.2 - Primary column
