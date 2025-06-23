@@ -1,153 +1,166 @@
 ---
 lab:
-    title: 'Lab 6: Integrating Power Apps with Power Automate'
-    module: 'Module 6: Integrating Power Apps with Power Automate'
+    title: 'Lab 5: Trigger filters'
+    module: 'Module 5: Automate processes with Power Automate'
 ---
 
-# Lab 6: Integrating Power Apps with Power Automate
+# Practice Lab 7 – Trigger filters
 
+In this lab you will filter on an update trigger.
 
-## Scenario
+## What you will learn
 
-Bellows College is an educational organization with multiple campuses and programs. Many of Bellow Colleges instructors and administrators need to attend events, and purchase items. Historically tracking these expenses has been a challenge. 
-
-Campus administration would like to modernize their expense reporting system by providing employees with a digital way to report expenses. 
-
-Throughout this course, you will build applications and perform automation to enable the Bellows College employees to manage expenses. 
-
-In this lab, you will create a Power Automate flow to email a copy of the expense report when they create a new Expense Report.
+- How to filter triggers
 
 ## High-level lab steps
 
-The following have been identified as requirements you must implement to complete the project:
+- Create an automated flow
+- Add column filter
+- Add query filter
 
-- Employees need to receive an email when an Expense Report is submitted. 
+## Prerequisites
 
-### Prerequisites
+- Must have completed **Lab 0: Validate lab environment**
 
-- Completion of **Lab 0 - Validate lab environment**
+## Exercise 1 - Import solution
 
-## Exercise 1: Create Expense Report Notification flow
 
-**Objective:** In this exercise, you will create a Power Automate flow that implements the requirement. 
+In this excercise, you will import prepared solution located in **Resources** folder.
 
-### Task #1: Create a flow
+1. Download solution: TrigerFilters_1_0_0_1 
 
-1. Navigate to `https://make.powerapps.com`
+1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
-1. You may need to reauthenticate, select **Sign in** and follow instructions, if needed.
+1. Make sure you are in the **JJTrainingEnvironment** environment.
 
-1. Select the **Dev** environment at the top right if it is not already selected.
+1. Select **Solutions**.
 
-1. In the left navigation, select **Flows**.
+1. Select **Import solution**.
 
-1. If prompted, select **Get started**.
+1. Choose solution you downloaded.
 
-1. Select **+ New flow** and select **Automated cloud flow**.
+    ![Screenshot of importing solution.](../Media/import-solution.png)
 
-1. Enter `Expense Notification` for **Flow name**.
+1. Select **Next**
 
-1. In **Choose your flow's trigger**, search for Dataverse
+1. Select **Import**
 
-1. Choose the trigger **When a row is added, modified, or deleted**, and then select **Create**.
+1. Wait few moments until it is imported.
 
-1. Populate the trigger conditions for the flow:
+    ![Screenshot of importing solution in progress.](../Media/import-solution-inprogress.png)
 
-    1. Select **Added** for **Change type**
-    
-    1. Select **Expense Reports** for **Table name**
+## Exercise 2 - Schema name
 
-    1. Select **Organization** for **Scope**
+### Task 2.1 - Column schema name
 
-    1. On the trigger step, select the ellipsis (**...**) and select **Rename**. Rename the trigger step `When an Expense Report is added` 
+1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
-This is good practice, so you and other flow editors can understand the purpose of the step without having to dive into the details.
+1. Make sure you are in the **Dev** environment.
 
-### Task #2: Create a step to get the Expense Report row
+1. In the left navigation pane, select **Tables**.
 
-1. Select **+ New step**. This step will retrieve Expense Report information, including email address.
+1. Select **Opportunity**.
 
-1. Search for Dataverse
+1. Under **Schema**, select **Columns**.
 
-1. Select the **Get a row by ID** action.
+1. Select the **Status** column.
 
-1. Select **Users** as **Table name**
+    ![Screenshot of status columns.](../Media/opportunity-status-column.png)
 
-1. Select the **Row ID** field. Notice that a window pops up to select **Dynamic content** or **Expressions**.
+1. Expand **Advanced options**.
 
-1. In the **Row ID** field, select **Owner (Value)** from the **Dynamic content** list. In this step, you are looking up the Owner for the Expense Report row that was created to trigger this flow. 
+    ![Screenshot of column schema name.](../Media/column-schema-name.png)
 
-1. On the **Get a row by ID** action, select the ellipsis (**...**) and select **Rename**. Rename this action `Get the Owner`.
+1. Copy the **Logical name** for use in the flow.
 
-This is good practice, so you and other flow editors can understand the purpose of the step without having to dive into the details.
+   > **Note:** The prefix for your Status column may be different.
 
-### Task #3: Create a step to send an email to confirm submission of an expense report
 
-1. Select **+ New step**. This is the step that will send an email to the individual who submitted an expense report.
+## Exercise 3 – Create automated flow
 
-1. Search for mail, select the **Send an email (V2)** action from the **Office 365 Outlook** connector.
+### Task 3.1 - Create the trigger
 
-1. If prompted to accept terms and conditions for using this action, select **Accept**.
+1. Navigate to the Power Automate portal `https://make.powerautomate.com`
 
-1. Select the **To** field and enter your personal email address. (There are many ways that we could dynamically populate an email address, but for this exercise we are going to manually assign it.)  
+1. Make sure you are in the **Dev One** environment.
 
-1. In the **Subject** field, enter `Your expense report was submitted`
+1. Select the **+ Create** tab from the left navigation menu.
 
-1. Enter the following text in **Email Body**:
+1. Select **Automated cloud flow**.
 
-Dynamic content needs to be placed where fields are named in brackets. It is recommended to copy & paste all text first and then add dynamic content in the correct places.
+1. Enter `Opportunity Closed` for **Flow name**.
 
-    Dear {First Name},
-    
-    Thank you for submitting your expense report for the total amount of {Report Total Amount} with a due date of {Report Due Date}.
-    
-     
-    Best regards,
-    Campus Administration
-    Bellows College
+1. Enter `Dataverse` in search all triggers.
 
-1. Highlight the **{First Name}** text. Replace it with the **First Name** field from the **Get the owner** step.
+1. Select **When a row is added, modified, or deleted**.
 
-1. Highlight the **{Report Total Amount}** text. Replace it with the **Report Total Amount** field **When an Expense Report is added** step.
+1. Select **Create**.
 
-1. Highlight the **{Report Due Date}** text. Replace it with the **Report due date** field from the **When an Expense Report is added** step.
+
+### Task 3.2 - Configure the trigger
+
+1. Select the **When a row is added, modified, or deleted** step.
+
+1. Select the **When a row is added, modified, or deleted** step name and enter `Opportunity changed`
+
+1. Select **Modified** for **Change Type**.
+
+1. Select **Opportunities** for **Table Name**.
+
+1. Select **Organization** for **Scope**.
+
+    ![Screenshot of update row trigger.](../Media/update-trigger.png)
+
+
+### Task 3.3 - Send email
+
+1. Select the **+** icon under the trigger step and select **Add an action**.
+
+1. Enter `email` in search.
+
+1. Select **Send an email (V2)** under **Office 365 Outlook**.
+
+1. Select **Send an email (V2)** step name and enter `Notify by email`
+
+1. Select **To** field and select **Enter custom value**.
+
+1. Enter your tenant user id for **To**.
+
+1. Select **Subject** field and enter `Opportunity closed`
+
+1. Select **Body** field and select the Dynamic content icon.
+
+1. Select **Opportunity Subject** from **Opportunity changed**.
+
+1. Select **Body** field and select the Dynamic content icon and select **See more**.
+
+1. Select **Status** from **Opportunity changed**.
+
+
+### Task 3.4 - Column filter
+
+1. Select the **Opportunity changed** trigger step.
+
+1. Select **Show all**
+
+1. Select the **Select Columns** field and enter the **Logical name** from the previous exercise, for example: `cr977_status`
+
+   > **Note:** The prefix for your status column will be different.
+
+
+### Task 3.5 - Row filter
+
+1. Select the **Opportunity changed** step.
+
+1. Select **Show all**
+
+1. Select the **Filter Rows** field and enter `cr977_status eq 3` using the **Logical name** from the previous exercise.
+
+    ![Screenshot of trigger filter.](../Media/trigger-filter.png)
+
+    > **Note:** The prefix for your status column will be different.
 
 1. Select **Save**.
 
-Leave this flow tab open for the next task. Your flow should look like the following:
+1. Select the **<-** **Back** button from the top left of the command bar.
 
-![Screenshot of the flow just created](../Media/create-an-automated-solution.png)
-
-### Task #4: Validate and test the flow
-
-1. Open a new tab in your browser and navigate to `https://make.powerapps.com`.
-
-1. Select the **Dev One** environment at the top right if it is not already selected.
-
-1. Select **Apps** and open the **Expense Tracker App**.
-
-1. Leaving this browser tab open, navigate back to the previous tab with your flow.
-
-1. On the command bar, select **Test**. Select **Manually** and then select **Test**.
-
-1. Navigate to the browser tab with your model-driven app open.
-
-1. Using the sitemap navigation on the left, select **Expense Report**.
-
-1. Select the **+ New** button to add a new **Expense Report** record.
-
-1. Complete the **Expense Report record** as follows:
-
-	- **Report Name:** `Test Report`
-
-    - **Report Purpose:** Conference
-
-	- **Report due date:** Tomorrow
-
-1. Select the **Save &amp; Close** button.
-
-1. Navigate to the browser tab where your Flow test is running. After a short delay, you should see the flow running. This is where you can catch any issues in the flow or confirm that it ran successfully.
-
-After a short delay, you should see an email in your inbox. 
-
->**Note:** It may go to your Junk email folder.

@@ -35,7 +35,7 @@ In this exercise, you will configure navigation and tables a model-driven app.
 
 1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
 
-1. Make sure you are in the **Dev** environment.
+1. Make sure you are in the **JJTrainingEnvironment** environment.
 
 1. Select **Solutions**.
 

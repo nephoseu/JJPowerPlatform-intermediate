@@ -46,7 +46,7 @@ In this exercise, you will modify the main form for the Real Estate Property tab
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
-1. Make sure you are in the **Dev** environment.
+1. Make sure you are in the **JJTrainingEnvironment** environment.
 
 1. Select **Solutions**.
 
@@ -192,7 +192,7 @@ In this exercise, you will modify the main form for the Showing table.
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
-1. Make sure you are in the **Dev** environment.
+1. Make sure you are in the **JJTrainingEnvironment** environment.
 
 1. Select **Solutions**.
 
@@ -237,7 +237,7 @@ In this exercise, you will create a new form and restrict access with a security
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
-1. Make sure you are in the **Dev** environment.
+1. Make sure you are in the **JJTrainingEnvironment** environment.
 
 1. Select **Solutions**.
 
@@ -301,7 +301,7 @@ In this exercise, you will modify the views for the Real Estate Property table.
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
-1. Make sure you are in the **Dev** environment.
+1. Make sure you are in the **JJTrainingEnvironment** environment.
 
 1. Select **Solutions**.
 
@@ -367,7 +367,7 @@ In this exercise, you will modify the views for the Showing table.
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
-1. Make sure you are in the **Dev** environment.
+1. Make sure you are in the **JJTrainingEnvironment** environment.
 
 1. Select **Solutions**.
 

@@ -19,7 +19,7 @@ In this excercise, you will import prepared solution located in **Resources** fo
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
-1. Make sure you are in the **Dev** environment.
+1. Make sure you are in the **JJTrainingEnvironment** environment.
 
 1. Select **Solutions**.
 
@@ -39,10 +39,10 @@ In this excercise, you will import prepared solution located in **Resources** fo
 
 
 
-### Exercise 2  – Add a calculated column
+### Exercise 2  – Add a calculated column 
 1.  Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
-1.  Make sure you are in the **Dev** environment.
+1.  Make sure you are in the **JJTrainingEnvironment** environment.
 
 1.  Select **Solutions**.
 
@@ -100,9 +100,59 @@ In this excercise, you will import prepared solution located in **Resources** fo
 
     ![Calculated column.](../Media/calculated-column.png)
 
+### Exercise 3 -  Calculated column for a many-to-one relationship
+1.  Navigate to the Power Apps Maker portal `https://make.powerapps.com`
+
+1.  Make sure you are in the **Dev One** environment.
+
+1.  Select **Solutions**.
+
+1.  Open the **Fabrikam Environmental** solution.
+
+1.  In the **Objects** pane on the left, expand **Tables**.
+
+1.  Select the **Outcome** table.
+
+1.  Select **+ New** > **Column**.
+
+1.  Enter `Approver Email` for **Display name**.
+
+1.  Enter `Email address for approver` for **Description**.
+
+1.  Select **Single line of text** in the **Data type** drop-down.
+
+1.  Select **Text** in the **Format** drop-down.
+
+1.  Change the **Behavior** drop-down to **Calculated**.
+
+1.  Select **Save and edit**.
+
+1.  When the new browser window opens, select **+ Add condition**.
+
+1.  Select **Approver** for **Field**.
+
+1.  Select **Contains data** for **Operator**.
+
+1.  Select the green check mark.
+
+    > NOTE: You may need to resize the window to see the check marks.
+
+1.  Select **+ Add action**.
+
+1.  Enter the following formula:
+
+    `contoso_approveruserid.internalemailaddress`
+
+    > NOTE: You can use intellisense to type and select the elements in the formula.
+
+1.  Select the blue check mark.
+
+    ![Add calculated column using a relationship.](../media/calculated-column-using-relationship.png)
+
+1.  Select **SAVE AND CLOSE**.
 
 
-### Exercise 3 -  Rollup column for the project one-to-many relationship
+### Exercise 4 -  Rollup column for the project one-to-many relationship
 
 1.  In the **Objects** pane on the left, expand **Tables**.
 

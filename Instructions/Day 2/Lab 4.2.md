@@ -16,7 +16,7 @@ lab:
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
-1. Make sure you are in the **Dev** environment.
+1. Make sure you are in the **JJTrainingEnvironment** environment.
 
 1. Select **Solutions**.
 
@@ -200,60 +200,3 @@ lab:
 1. Close the business rule designer tab.
 
 1. Select **Done**.
-
-## Exercise 2 – Low code plug-in
-
-### Task 2.1 – Create a low-code plug-in
-
-1. Navigate to the Power Platform Admin Center `https://admin.powerplatform.microsoft.com`.
-
-1. Select **Resources** (left pane).
-
-1. Select **Dynamics 365 apps**.
-
-1. Search for **Dataverse Accelerator**.
-
-1. Click on the eliphis **'...'** then select **Install**.
-
-1. At **Select an environment** select **Dev One** environment.
-
-1. Click the **Install** button and wait for it to be instaled.
-
-1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
-
-1. Make sure you are in the **Dev One** environment.
-
-1. Select **Apps**.
-
-1. Select **All**
-
-1. Select the **Dataverse Accelerator App** and select **Play**.
-
-1. Select **+ New plug-in** and select **Automated plug-in**.
-
-1. Enter `Project date validation` for *Display name*.
-
-1. Select **contoso_project** for *Table*.
-
-1. Select **Updated** for *Run this plug-in when the row is*.
-
-1. Expand **Advanced options**.
-
-1. Select **Pre-operation** for *When should this run*.
-
-1. Select **Fabrikam Environmental** for *Solution*.
-
-1. Enter the following **Expression**.
-
-    ```
-    If(NewRecord.'Scheduled Start' > NewRecord.'Scheduled End', 
-     Error({Kind: ErrorKind.Validation, Message: "The start date cannot be after the end date" })
-    );
-    ```
-    ![Low-code plug-in.](../Media/lowcode-plugin.png)
-
-1. Select **Save**.
-
-## Challenge (Optional)
-
-Edit the **Set Resource Name** business rule on the **Resource** table to hide both lookup columns if resource type is not selected and set as not business required.

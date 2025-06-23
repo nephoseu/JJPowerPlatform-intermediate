@@ -32,7 +32,7 @@ In this lab you will design and build a canvas app from blank, add a data source
 
 1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
-1. Make sure you are in the **Dev** environment.
+1. Make sure you are in the **JJTrainingEnvironment** environment.
 
 1. Select the **+ Create** tab from the left navigation menu.
 
